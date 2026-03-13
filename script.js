@@ -9,15 +9,6 @@ const observer = new IntersectionObserver(
 );
 sections.forEach((sec) => observer.observe(sec));
 
-const imgs = document.querySelectorAll(".gallery img");
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = lightbox.querySelector("img");
-imgs.forEach((img) =>
-  img.addEventListener("click", () => {
-    lightbox.style.display = "flex";
-    lightboxImg.src = img.src;
-  }),
-);
 lightbox.addEventListener("click", () => (lightbox.style.display = "none"));
 
 ba.addEventListener("mousemove", (e) => {
