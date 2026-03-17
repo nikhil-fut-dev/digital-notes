@@ -9,8 +9,6 @@ const observer = new IntersectionObserver(
 );
 sections.forEach((sec) => observer.observe(sec));
 
-lightbox.addEventListener("click", () => (lightbox.style.display = "none"));
-
 ba.addEventListener("mousemove", (e) => {
   let x = e.offsetX;
   ba.querySelector(".after").style.width = x + "px";
@@ -20,6 +18,6 @@ ba.addEventListener("mousemove", (e) => {
 const toggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav-list");
 
-toggle.addEventListener("click", () => {
-  nav.classList.toggle("active");
+toggle.addEventListener("click", function(){
+nav.classList.toggle("active");
 });

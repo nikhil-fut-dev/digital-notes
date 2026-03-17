@@ -38,7 +38,7 @@ h2 {
   cursor: pointer;
 }
 
-/* NAV LINKS */
+/* NAV LIST */
 .nav-list {
   display: flex;
   list-style: none;
@@ -94,84 +94,6 @@ h2 {
   z-index: -1;
 }
 
-.hero-text {
-  margin-top: 60px;
-  display: flex;
-  text-align: center;
-  color: white;
-  padding: 10px 30px;
-  background: #566c68e7;
-  border-radius: 12px;
-}
-
-.hero-text h1 {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
-.hero-text p {
-  font-size: 11px;
-}
-
-/* BUTTON */
-
-.hero-btn {
-  display: inline-block;
-  margin-top: 2px;
-  padding: 5px 10px;
-  background: #d4af37;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero-btn:hover {
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
-}
-
-/* second heto-text  */
-
-.hero-content {
-  margin-top: 410px;
-  text-align: center;
-  color: white;
-  padding: 10px 60px;
-  background: #566c68e7;
-  border-radius: 12px;
-}
-
-.hero-content .aa {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.hero-content .bb {
-  font-size: 20px;
-}
-
-/* BUTTON */
-
-.hero-btnn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 25px;
-  background: #d4af37;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero-btnn:hover {
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
-}
-
-/* Mobile image hide by default */
-
-.hero-text {
-  display: none;
-}
 
 .mobile-img {
   display: none;
