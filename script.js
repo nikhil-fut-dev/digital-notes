@@ -9,15 +9,10 @@ const observer = new IntersectionObserver(
 );
 sections.forEach((sec) => observer.observe(sec));
 
-ba.addEventListener("mousemove", (e) => {
-  let x = e.offsetX;
-  ba.querySelector(".after").style.width = x + "px";
-  slider.style.left = x + "px";
-});
-
 const toggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav-list");
 
 toggle.addEventListener("click", function(){
 nav.classList.toggle("active");
 });
+
