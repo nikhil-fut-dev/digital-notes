@@ -18,7 +18,7 @@
     top: 45px;
     left: 0;
     width: 100%;
-    background: transparent;
+    background: #333;
 
     display: none;
     flex-direction: row;
@@ -68,8 +68,14 @@
     text-align: center;
   }
 
-  .gallery img{
-    border-radius: 4px;
+  .gallery {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+    gap: 25px;
+  }
+
+  .gallery img {
+    border-radius: 3px;
   }
 
   /* Skills */
